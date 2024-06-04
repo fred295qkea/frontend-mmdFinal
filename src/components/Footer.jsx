@@ -1,7 +1,7 @@
 export function Footer({ data }) {
   return (
     <footer>
-      <div className="border-t border-b  border-softblack">
+      <div className="border-t border-b border-softblack">
         <div className="flex items-center justify-between h-16 max-w-screen-lg px-4 mx-auto sm:px-12 ">
           <p className="fair">J.Antony Produktion</p>
           <div className="flex items-center ">
@@ -12,7 +12,7 @@ export function Footer({ data }) {
             </a>
             <a className="block px-2 py-1" href="">
               <svg width="31" height="20" viewBox="0 0 41 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7026 17.668L20.5041 21.538L26.0965 17.774L38.6322 29.84C38.3022 29.944 37.9496 30 37.5826 30H3.41735C2.96635 30 2.53585 29.914 2.1402 29.76L14.7026 17.668ZM41 7.752V26.666C41 27.16 40.8893 27.628 40.6925 28.05L28.4048 16.222L41 7.752ZM1.93438e-06 7.858L12.3861 16.122L0.217302 27.838C0.0731783 27.4633 -0.000435078 27.0662 1.93438e-06 26.666V7.858ZM37.5826 0C39.4686 0 41 1.492 41 3.334V4.506L20.4959 18.296L1.93438e-06 4.62V3.334C1.93438e-06 1.494 1.5293 0 3.41735 0H37.5826Z" fill="#323330" />
+                <path fillRule="evenodd" clipRule="evenodd" d="M14.7026 17.668L20.5041 21.538L26.0965 17.774L38.6322 29.84C38.3022 29.944 37.9496 30 37.5826 30H3.41735C2.96635 30 2.53585 29.914 2.1402 29.76L14.7026 17.668ZM41 7.752V26.666C41 27.16 40.8893 27.628 40.6925 28.05L28.4048 16.222L41 7.752ZM1.93438e-06 7.858L12.3861 16.122L0.217302 27.838C0.0731783 27.4633 -0.000435078 27.0662 1.93438e-06 26.666V7.858ZM37.5826 0C39.4686 0 41 1.492 41 3.334V4.506L20.4959 18.296L1.93438e-06 4.62V3.334C1.93438e-06 1.494 1.5293 0 3.41735 0H37.5826Z" fill="#323330" />
               </svg>
             </a>
           </div>
@@ -20,7 +20,7 @@ export function Footer({ data }) {
       </div>
       <div className="max-w-screen-lg px-4 py-8 mx-auto sm:flex sm:px-12">
         <div className="flex flex-wrap sm:w-3/6">
-          <a className="block w-3/6 py-16 font-bold text-center border-b  hover:underline border-softblack" href={data.footerLink[0].url}>
+          <a className="block w-3/6 py-16 font-bold text-center border-b hover:underline border-softblack" href={data.footerLink[0].url}>
             {data.footerLink[0].text}
           </a>
           <a className="block w-3/6 py-16 font-bold text-center border-b border-l hover:underline border-softblack" href={data.footerLink[1].url}>
