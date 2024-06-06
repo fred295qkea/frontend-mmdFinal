@@ -6,7 +6,7 @@ export function Footer({ data }) {
       <div className="flex flex-col justify-between max-w-screen-lg gap-10 px-4 mx-auto my-8 sm:px-12 sm:flex-row">
         <div className=" sm:max-w-[35%] grid gap-3">
           <h3 className="text-2xl">J. Anthony Production</h3>
-          <p>Skal vi lave et godt samarbejde?</p>
+          <p>Skal vi tage en uforpligtende samtale?</p>
           <ButtonLink text={"Kontakt"} href={"/kontakt-os"} />
         </div>
         <div className="flex justify-between gap-10 px-2 sm:gap-36">
