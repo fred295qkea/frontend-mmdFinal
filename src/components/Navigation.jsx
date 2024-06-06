@@ -8,7 +8,6 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 
 function Navigation({ data, isOpen, setIsOpen }) {
- 
   const container = useRef();
 
   const tl = useRef();
