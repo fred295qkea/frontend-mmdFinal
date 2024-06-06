@@ -1,7 +1,6 @@
 import { ButtonLink } from "./ButtonLink";
 
 export function Footer({ data }) {
-  console.log(data);
   return (
     <footer className="border-t border-softblack ">
       <div className="flex flex-col justify-between max-w-screen-lg gap-10 px-4 mx-auto my-8 sm:px-12 sm:flex-row">

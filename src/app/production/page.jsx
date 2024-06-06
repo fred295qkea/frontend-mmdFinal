@@ -15,7 +15,6 @@ export const metadata = {
 };
 
 function page() {
-  console.log(data.ProduktionBody);
   return (
     <div className="text-black bg-bgcol ">
       <section className="mb-20">

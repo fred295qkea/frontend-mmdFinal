@@ -10,7 +10,6 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(useGSAP);
 
 function Design({ data }) {
-  console.log(data);
   useGSAP(() => {
     const mm = gsap.matchMedia();
 
