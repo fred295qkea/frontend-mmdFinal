@@ -49,10 +49,10 @@ function Samtale({ data }) {
       <p className=" max-w-[600px] mx-auto">{data.description}</p>
       <div className="flex justify-between max-w-[800px] mx-auto">
         <div className="w-1/3 image">
-          <Image src={data.image1.url} width={300} height={200} alt="Tøj" sizes="100vw" />
+          <Image src={data.image1.url} width={300} height={200} alt="Tøj" sizes="50vw" />
         </div>
         <div className="w-1/3 image_2">
-          <Image src={data.image2.url} width={300} height={200} alt="Møde" sizes="100vw" />
+          <Image src={data.image2.url} width={300} height={200} alt="Møde" sizes="50vw" />
         </div>
       </div>
     </section>

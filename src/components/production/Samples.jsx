@@ -49,10 +49,10 @@ function Samples({ data }) {
       <p className=" max-w-[600px] mx-auto">{data.description}</p>
       <div className="flex justify-between max-w-[800px] mx-auto">
         <div className="w-1/3 image_4">
-          <Image src={data.image1.url} width={300} height={400} alt="prøver sample" sizes="100vw" />
+          <Image src={data.image1.url} width={300} height={400} alt="prøver sample" sizes="50vw" />
         </div>
         <div className="w-1/3 image_3">
-          <Image src={data.image2.url} width={300} height={400} alt="samples" sizes="100vw" />
+          <Image src={data.image2.url} width={300} height={400} alt="samples" sizes="50vw" />
         </div>
       </div>
     </section>
