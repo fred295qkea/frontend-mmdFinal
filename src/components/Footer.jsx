@@ -24,7 +24,9 @@ export function Footer({ data }) {
               {" "}
               <div>
                 {" "}
-                <img src="/Vector.svg" alt="mail" />
+                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196667 15.0217 0.000666667 14.5507 0 14V2C0 1.45 0.196 0.979333 0.588 0.588C0.98 0.196666 1.45067 0.000666667 2 0H18C18.55 0 19.021 0.196 19.413 0.588C19.805 0.98 20.0007 1.45067 20 2V14C20 14.55 19.8043 15.021 19.413 15.413C19.0217 15.805 18.5507 16.0007 18 16H2ZM10 9L2 4V14H18V4L10 9ZM10 7L18 2H2L10 7ZM2 4V2V14V4Z" fill="black" />
+                </svg>
               </div>
               <a href="">at@jantonycph.dk</a>
             </div>
@@ -41,7 +43,7 @@ export function Footer({ data }) {
           <div className="order-first sm:order-2">
             <div>
               <p className="underline ">Sitemap</p>
-              <div className="grid">
+              <div className="grid gap-2">
                 {data.footerLink.map((link) => {
                   return (
                     <a className="hover:underline" href={link.url}>
