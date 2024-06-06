@@ -2,7 +2,6 @@ import { ButtonLink } from "./ButtonLink";
 import { StrapiImage } from "./StrapiImage";
 
 export function Card({ data }) {
-  console.log(data);
   return (
     <div className="grid h-full ">
       <StrapiImage height={200} src={data.image.url} />
