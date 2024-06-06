@@ -7,7 +7,7 @@ function Kontakt({ data }) {
     <section className="relative z-20 bg-desert">
       <div className="grid max-w-screen-lg py-10 mx-auto sm:grid-cols-2 ">
         <div className="">
-          <Image src={data.image.url} width={800} height={1600} sizes="100vw" />
+          <Image src={data.image.url} width={800} height={1600} alt="Billede af kontaktperson" sizes="100vw" />
         </div>
         <div className="self-end p-4 ">
           <h3 className="text-4xl ">{data.headline}</h3>

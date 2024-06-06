@@ -12,8 +12,7 @@ let data = await getProduktionData();
 export const metadata = {
   title: data.title,
   description: data.metaDescription,
-}
-
+};
 
 function page() {
   console.log(data.ProduktionBody);
@@ -22,7 +21,7 @@ function page() {
       <section className="mb-20">
         <Headliner data={data.ProduktionBody[1]} />
         <div className="w-3/4 mx-auto sm:w-2/3">
-          <Image src={data.ProduktionBody[2].image.url} width={1600} height={900} priority={true} sizes="100vw" />
+          <Image src={data.ProduktionBody[2].image.url} width={1600} height={900} priority={true} alt="Møde" sizes="100vw" />
         </div>
       </section>
       <Samtale data={data.ProduktionBody[0].production1} />
