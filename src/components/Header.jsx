@@ -10,7 +10,7 @@ export default function Header({ data }) {
         <div className="flex">
           <a className="flex border-r pr-1 border-softblack" href={data.header.contactLink.url}>
             {data.header.contactLink.text}
-            <Image src="./arrow-up-right.svg" width={20} height={20} />
+            <Image src="./arrow-up-right.svg" alt="" width={20} height={20} />
           </a>
           <Burger data={data.navigationSection} />
         </div>

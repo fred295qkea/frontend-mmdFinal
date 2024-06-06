@@ -36,7 +36,7 @@ export function Intro({data}) {
       </div>
       <div className="md:w-3/6">
         <div className=" ml-auto w-5/6 rounded-tr-3xl">
-          <StrapiImage height={250} src={data.images.data[0].url}/>
+          <StrapiImage priority={true} height={250} src={data.images.data[0].url}/>
         </div>
         <div className="relative -mt-20 w-5/6">
            <StrapiImage height={250} src={data.images.data[1].url}/> 
